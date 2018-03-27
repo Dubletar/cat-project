@@ -1,0 +1,78 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+#containers {
+    min-height: 40vh;
+    width: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+}
+.container-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.action-items {
+    padding: 20px;
+    height: 5vh;
+    min-height: 50px;
+    border: 1px solid #ececec;
+}
+.action-row {
+    display: flex;
+    flex-direction: row;
+}
+.sub-body {
+    height: 55vh;
+}
+.panels {
+    display: flex;
+    flex-direction: row;
+}
+.panel-column {
+    height: 50vh;
+    width: 50%;
+}
+.action-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #dbecf9;
+    border: 1px solid #c0dff9;
+    outline: none;
+    cursor: pointer;
+}
+.action-button:active {
+    background: #c0dff9;
+    border-color: #afd7f7;
+}
+.kitty-inner {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.kitty-image{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.kitty-wrapper {
+    width: 103px;
+}
+.kitty-info {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+.male-kitty {
+    background: #b5d0fc;
+}
+.female-kitty {
+    background: #edbef7;
+}
+.kitty-well {
+    border: 3px solid limegreen;
+}
